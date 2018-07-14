@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Sold Books"
+            android:id="@+id/soldBooksMenu"
+            android:icon="@drawable/shopping"/>
+        <item
+            android:title="Bought Books"
+            android:id="@+id/boughtBooksMenu"
+            android:icon="@drawable/shopping"/>
+        <item
+            android:title="Sell on TradeBooks"
+            android:id="@+id/sellOnTradeBooksMenu"
+            android:icon="@drawable/shopping"/>
+        <item android:title="Your Cart"
+            android:id="@+id/yourCartMenu"
+            android:icon="@drawable/cart"/>
+        <item android:title="Your Sold Orders"
+            android:id="@+id/yourSoldOrdersMenu"
+            android:icon="@drawable/cart"/>
+        <item android:title="Profile Settings">
+
+            <menu>
+                <item
+                    android:title="Reset Password"
+                    android:id="@+id/resetPasswordMenu"
+                    android:icon="@drawable/lock_reset"/>
+                <item
+                    android:title="Update Information"
+                    android:id="@+id/updateInformationMenu"
+                    android:icon="@drawable/update"/>
+                <item android:title="Log Out"
+                    android:id="@+id/logOutMenu"
+                    android:icon="@drawable/logout"/>
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="145dp">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="270dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        app:passwordToggleEnabled="true">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resetPasswordOld"
+            android:inputType="textPassword"
+            android:hint="Current Password"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="270dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        app:passwordToggleEnabled="true">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resetPasswordNew"
+            android:inputType="textPassword"
+            android:hint="New Password"
+            />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+

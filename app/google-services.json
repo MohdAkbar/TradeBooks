@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "919467317781",
+    "firebase_url": "https://tradebooks-3a809.firebaseio.com",
+    "project_id": "tradebooks-3a809",
+    "storage_bucket": "tradebooks-3a809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919467317781:android:606d2ee91b35e46c",
+        "android_client_info": {
+          "package_name": "com.example.akbar.tradebooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919467317781-13r3ff013eec2v03ghenvf5rce8hgnfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH7rgDpQ0N76BSNOZTiVwlOEKVPsHiGWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
